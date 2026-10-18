@@ -8616,4 +8616,5 @@ async function onRequest(context) {
   }
 }
 
-export { onRequest as default };
+export { onRequest };
+export default onRequest;
