@@ -57,7 +57,8 @@
     "contributors:add": "npx all-contributors-cli add",
     "contributors:generate": "npx all-contributors-cli generate",
     "models:fetch": "node build/fetchModels.mjs",
-    "manual:ai-probe": "node test/manual/ai_probe.mjs"
+    "manual:ai-probe": "node test/manual/ai_probe.mjs",
+    "build:edgeone": "VITE_QQ_API_BASE=/api/qq vite build"
   },
   "build": {
     "appId": "top.izuna.foliamajor",
